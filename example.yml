@@ -1,0 +1,20 @@
+# source log files to be uploaded
+source:
+- key: xxx
+  log:
+  - /tmp/x1.log
+  - /tmp/x2.log
+
+- key: yyy
+  log:
+  - /tmp/y1.log
+  - /tmp/y2.log
+
+# where to upload source files to
+dest: localhost:8000
+
+# log dir
+log_dir: /var/log/vchain_stack
+
+# time interval in process loop (ms)
+interval: 500
